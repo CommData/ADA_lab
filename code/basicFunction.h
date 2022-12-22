@@ -31,3 +31,17 @@ int sizeInput() {
     cin >> size;
     return size;
 }
+
+void keyFound(int result) {
+    if(result == -1) {
+        cout << "Key not found\n";
+    } else {
+        cout << "Key found at index: " << result << '\n';
+    }
+}
+int keyInput() {
+    int key{};
+    cout << "Enter the element you want to find: ";
+    cin >> key;
+    return key;
+}
