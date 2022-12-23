@@ -4,8 +4,8 @@
 
 using namespace std;
 
-void printinfo(string name, string enrollNo, string secinfo) {
-    cout << name << '\n' << enrollNo << '\n' << secinfo << '\n';
+void printinfo() {
+    cout << "Shivam Singh\n07313302720\nCSE-5A\n"; 
 } 
 
 void printArray(int arr[], int size) {
@@ -18,8 +18,8 @@ void printArray(int arr[], int size) {
 
 int* takeInputArray (int size) {
     int *tempArray = new int[size+1];
+    cout << "Enter the elements of array separated by space: "; 
     for(int i = 0 ; i < size ; i++) {
-        cout << "Enter the " << i << "th element of the array:";
         cin >> tempArray[i];
     }
     return tempArray;

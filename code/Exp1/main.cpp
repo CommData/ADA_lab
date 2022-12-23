@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    printinfo("Shivam Singh", "07313302720", "CSE-5A");
+    printinfo();
     //---------------------------- Taking User Input-----------------------------------------------------//
     int size = sizeInput();
     int key = keyInput();

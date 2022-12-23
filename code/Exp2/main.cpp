@@ -6,6 +6,7 @@
 using namespace std;
 
 int main() {
+    printinfo();
     //--------------------------------------Insertion Sort-----------------------------------------------------------//
     int size = sizeInput();
     int *array = new int[size+1];
