@@ -131,6 +131,7 @@ vector<vector<int> > strassen_multiplication(vector<vector<int> > A, vector<vect
 			}
 		}
   //------------------------freeing memory------------------------------------------------------//
+  //--------------------------Optional done for memory safety----------------------------------//
 		a00.clear();
 		a01.clear();
 		a10.clear();
