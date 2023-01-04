@@ -1,11 +1,8 @@
 #include <algorithm>
-
 int bs(int array[], int x, int low, int high) {
   std::sort(array, array+(high+1));
   if (high >= low) {
     int mid = low + (high - low) / 2;
-
-    // If found at mid, then return it
     if (array[mid] == x)
       return mid;
 
