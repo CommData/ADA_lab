@@ -54,5 +54,6 @@ int main()
 	char txt[] = "ABABDABACDABABCABAB";
 	char pat[] = "ABABCABAB";
 	KMPSearch(pat, txt);
+	printf("\n");
 	return 0;
 }
